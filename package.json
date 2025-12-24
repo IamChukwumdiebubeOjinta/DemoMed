@@ -1,6 +1,7 @@
 {
-  "name": "my-app",
+  "name": "healthcare-api-assessment",
   "version": "0.1.0",
+  "description": "Patient Risk Scoring System for Healthcare API Assessment",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,7 +9,17 @@
     "start": "next start",
     "lint": "eslint"
   },
+  "keywords": [
+    "healthcare",
+    "api",
+    "risk-scoring",
+    "assessment"
+  ],
+  "author": "Chukwumdiebube Ojinta",
+  "license": "MIT",
   "dependencies": {
+    "@tanstack/react-query": "^5.90.12",
+    "axios": "^1.13.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.562.0",
